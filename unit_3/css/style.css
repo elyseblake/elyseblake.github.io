@@ -1,4 +1,12 @@
-h1{
-  background-color: blue;
-  background:url("images/NYCUniversity.jpeg");
+body {
+  background-color: #2D4382;
+  font-family: helvetica;
+
 }
+h1, p {
+	font-weight: bold;
+	font-size: 28px;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
