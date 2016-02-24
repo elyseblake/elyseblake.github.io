@@ -1,6 +1,5 @@
 *, *:before, *:after {
 	box-sizing: border-box;
-
 }
 /*.box {
 	width: 1250px;
@@ -133,4 +132,33 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+.nav_foot {
+	text-decoration: none;
+	display: inline-block;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 10px;
+}
+.nav_foot li {
+	text-decoration: none;
+    display:inline;
+    margin: 0 auto;
+}
+.nav_foot a {
+	margin: 0;
+    display:inline-block;
+    padding:10px;
+}
+.nav_foot a:link, .nav_foot a:visited {
+    background-color: #000000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+aside {
+	float: none;
+	display: block;
 }
