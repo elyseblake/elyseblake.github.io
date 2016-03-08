@@ -15,16 +15,16 @@
 /*	overflow: visible;*/
 /*	margin-left: 10px;*/
 }
-header h1 {
+/*header h1 {
 	font-family: Verdana sans-serif;
 	text-align: center;
-	font: 20pt;
+/*	font: 20pt;
 	font-weight: bold;
 	letter-spacing: 2px;
 	margin:0 auto;
-    padding: 0 auto;
+    padding: 0 auto;*/
 }
-header h1{
+/*header h1{
 	font-family: Verdana;
 }
 body {
@@ -32,13 +32,13 @@ body {
 	margin: 0 auto !important;
 	float: none !important;
 /*	background-color: black;*/
-	text-align: center;
+/*	text-align: center;
 	width: 100%;
 	position: center;
 }
 article.clients {
     float: left;
-/*    vertical-align: middle;*/
+    vertical-align: middle;
     margin-top: 0 auto;
     margin-left: .30em;
     margin-right: .30em;
@@ -50,9 +50,9 @@ article {
     vertical-align: middle;
     text-align: left;
     overflow: hidden;
-    opacity: .5;
+    opacity: .5;*/*/
 }
-/*article:hover {
+/*article:hover {*/
 	opacity: 1;
 }*/
 article p { /*THIS IS THE ONE THAT DOES THE WORDS ON TOP*/
@@ -75,7 +75,7 @@ li {
 	font-family: Verdana;
 }
 .nav {
-	font-family: Verdana
+/*	font-family: Verdana
 	text-decoration: none;
 	font-weight: bold;
     border-width:2px 0;
@@ -126,12 +126,15 @@ a:link, a:visited {
 	margin: 0;
     display:inline-block;
     padding:10px;
-}
-.nav_foot a:link, .nav_foot a:visited {
+}*/
+/*.nav_foot a:link, .nav_foot a:visited {
     background-color: #000000;
     color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-}
+}*/
+
+/*@media only screen and (min-width:768px)*/
+@media only screen and (max-width: 768px)
